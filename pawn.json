@@ -1,0 +1,28 @@
+{
+	"user": "TerrorK1ng",
+	"repo": "Samp-Systems",
+	"tag": "0.0.1",
+	"entry": "new.pwn",
+	"output": "gamemodes/new.amx",
+	"dependencies": [
+		"pawn-lang/samp-stdlib",
+		"pawn-lang/pawn-stdlib"
+	],
+	"local": true,
+	"builds": [
+		{
+			"name": "",
+			"version": "3.10.10",
+			"args": [
+				"-;+",
+				"-(+",
+				"-d3",
+				"-Z+"
+			],
+			"includes": [
+				"./includes/"
+			],
+			"compiler": {}
+		}
+	]
+}
