@@ -1,14 +1,24 @@
 {
 	"user": "TerrorK1ng",
 	"repo": "Samp-Systems",
-	"tag": "0.0.1",
 	"entry": "new.pwn",
 	"output": "gamemodes/new.amx",
 	"dependencies": [
 		"pawn-lang/samp-stdlib",
-		"pawn-lang/pawn-stdlib"
+		"pawn-lang/pawn-stdlib",
+		"Y-Less/sscanf:v2.13.8",
+		"philip1337/samp-plugin-mapandreas:v1.2.1"
 	],
 	"local": true,
+	"runtime": {
+		"version": "0.3.7",
+		"mode": "server",
+		"rcon_password": "abcde",
+		"port": 7777,
+		"hostname": "SA-MP Server",
+		"maxplayers": 50,
+		"language": ""
+	},
 	"builds": [
 		{
 			"name": "",
